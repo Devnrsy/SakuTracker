@@ -70,7 +70,7 @@ function App() {
             value={inputPin}
             onChange={(e) => setInputPin(e.target.value)}
             placeholder="••••"
-            className="w-full p-3 mb-4 text-center text-1xl tracking-[0.5em] bg-gray-50 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400 transition-all duration-200"
+            className="w-full p-3 mb-4 mt-5 text-center text-1xl tracking-[0.5em] bg-gray-50 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400 transition-all duration-200"
           />
           <button
             onClick={() => {

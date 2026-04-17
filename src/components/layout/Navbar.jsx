@@ -5,7 +5,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed bottom-0 w-full md:w-100 bg-white border-t border-gray-200 flex justify-around py-3 z-50">
+    <nav className="fixed bottom-0 left-0 w-full max-w-md mx-auto bg-white border-t border-gray-200 flex justify-around py-3 z-50">
       <Link
         to="/"
         className={`flex flex-col items-center p-2 ${location.pathname === '/' ? 'text-emerald-800' : 'text-gray-400'}`}

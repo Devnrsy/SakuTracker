@@ -1,0 +1,15 @@
+{
+  "shot_nama": "SakuTracker",
+  "nama": "SakuTracker - Catatan Keuangan Saku",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "image/svg+xml",
+      "type": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#10B981",
+  "background_color": "#f9fafb"
+}
